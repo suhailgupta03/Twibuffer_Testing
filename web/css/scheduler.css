@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-image:url(../images/bscheduler.gif);
+	background-size:cover	
+}
+
+#logout {
+	margin-left:65%;
+}
+
+#wrapper {
+	margin-left:20%;
+	margin-top:8%;
+	margin-right:20%;
+}
+
+#header {
+	margin-bottom:2%;
+}
+
+#latest_tweet {
+	margin-left:40%;
+}
+
+#type_tweet{
+	float:left
+}
+	
+#tweet_entered, #date {
+	margin-left:3%
+}
+
+#SelectedDate, #at {
+	height:40px;
+	font-size:20px;
+}
+
+.timepicker {
+	height:40px;
+	font-size:20px;
+}
+
+#table {
+	margin-top:1%
+}
+
+#heading, #stweet, #echkbox, #dchkbox {
+	text-align:left
+}
+
+#schedule_button {
+	margin-left:10%;
+	background-image:url(../images/scheduler_button.gif);
+	font-size:0px;
+	width:112px; 
+	height:28px; 
+	border-radius:8%;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="org.suhail.pojo.Scheduled" table="scheduled">
+      <id name="sid" column="sid" type="integer">
+          <generator class="increment" />
+      </id>
+      <property name="id" column="id" type="integer" />
+      <property name="sdate" column="sdate" type="date"/>
+      <property name="stime" column="stime" type="time" />
+      <property name="tweet" column="tweet" type="string" />
+  </class>
+</hibernate-mapping>

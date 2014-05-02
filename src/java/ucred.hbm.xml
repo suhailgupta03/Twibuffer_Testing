@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="org.suhail.pojo.UCred" table="usercred">
+        <id name="id" column="id" type="integer">
+            <generator class="increment" />
+        </id>
+        <property name="accessToken" column="accesstoken" type="string" />
+        <property name="accessTokenSecret" column="accesstokensecret" type="string" />
+        <property name="email" column="email" type="string" />
+        <property name="firstName" column="firstname" type="string" />
+        <property name="lastName" column="lastname" type="string" />
+        <property name="password" column="password" type="string" />
+        <property name="username" column="username" type="string" />
+    </class>
+</hibernate-mapping>
